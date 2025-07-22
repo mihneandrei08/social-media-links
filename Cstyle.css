@@ -1,0 +1,71 @@
+body {  
+    background-color: hsl(0, 0.00%, 7.80%)
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box {
+    width: 350px;
+    height: 620px;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 12%);
+    border: 0px solid hsl(0, 0%, 12%);
+    border-color: whitesmoke;
+    color: whitesmoke;
+    text-align: center;
+    font-family: Inter, sans-serif;
+
+}
+
+.media a { /* de ce se pune display:flex-inline si nu direct flex? 2.de ce trebuie sa pun flex direction pentru justify.
+fara flex-direction, textul nu se aliniaza*/
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 20%);
+    width:250px;
+    height:50px;
+    margin:10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    color: whitesmoke;
+    border: 0px solid hsl(0, 0%, 12%);
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+.media a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color:black
+}
+#PFP {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top:30px;
+}
+
+#Locatie {
+    color:hsl(75, 94%, 57%);
+    font-size: small;
+    font-weight: bold;
+    margin-top: -20px;
+}
+#Nume {
+    font-size: x-large;
+    font-weight: bold;
+}
+.box .media button {
+    font-family: Inter, sans-serif;
+}
+#descriere {
+    color:#d3d5d4;
+    font-size: small;
+    margin-top: 10px;
+}
+.media {
+    margin-top: 20px;
+}
